@@ -69,15 +69,6 @@ PRODUCT_PACKAGES += \
     libstlport \
     libxml2
 
-# GPS
-PRODUCT_PACKAGES += \
-    gps.msm8974
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/gps/etc/gps.conf:/system/etc/gps.conf \
-    $(LOCAL_PATH)/gps/etc/flp.conf:/system/etc/flp.conf \
-    $(LOCAL_PATH)/gps/etc/sap.conf:/system/etc/sap.conf
-
 # Input device
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/idc/sec_e-pen.idc:system/usr/idc/sec_e-pen.idc
