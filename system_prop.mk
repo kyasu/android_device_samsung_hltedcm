@@ -56,6 +56,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.setnwkmode=9 \
     persist.radio.forced_succ_ack=false \
     persist.radio.default_wappush=true \
+    persist.data.qmi.adb_logmask=0 \
     ro.telephony.default_network=0 \
     telephony.lteOnCdmaDevice=0 \
     ro.telephony.ril_class=hltedcmRIL
