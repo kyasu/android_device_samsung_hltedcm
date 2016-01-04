@@ -103,7 +103,6 @@ BOARD_RECOVERY_SWIPE := true
 
 # SELinux
 -include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_UNION += macloader.te
 BOARD_SEPOLICY_DIRS += device/samsung/hltedcm/sepolicy
 
 # Wifi
