@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     camera.msm8974 \
     libstlport \
-    libxml2
+    libxml2 \
+    Snap
 
 # Input device
 PRODUCT_COPY_FILES += \
