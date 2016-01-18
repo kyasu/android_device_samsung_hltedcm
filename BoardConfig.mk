@@ -24,6 +24,9 @@ TARGET_OTA_ASSERT_DEVICE := hlte,hltedcm,SM-N900D,SC-01F
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
+# Build with Clang by default
+USE_CLANG_PLATFORM_BUILD := true
+
 # init.rc
 TARGET_PROVIDES_INIT_RC := true
 
