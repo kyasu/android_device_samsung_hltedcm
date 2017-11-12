@@ -93,7 +93,8 @@ TARGET_POWERHAL_VARIANT := qcom
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := device/samsung/hltedcm/power/power_ext.c
 
 # Radio
-BOARD_RIL_CLASS := ../../../device/samsung/hltedcm/ril
+BOARD_PROVIDES_LIBRIL := true
+TARGET_RIL_VARIANT := caf
 
 #RECOVERY_VARIANT := twrp
 # Recovery
