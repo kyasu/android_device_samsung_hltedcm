@@ -20,6 +20,9 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/hltedcm/include
 
 TARGET_OTA_ASSERT_DEVICE := hlte,hltedcm,SM-N900D,SC-01F
 
+# ADB Legacy Interface
+TARGET_USES_LEGACY_ADB_INTERFACE := true
+
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 
