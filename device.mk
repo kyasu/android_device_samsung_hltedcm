@@ -130,7 +130,8 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    libsecnativefeature
+    libsecnativefeature \
+    libshim_cutils_atomic
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
