@@ -79,10 +79,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungDoze
 
-# Gestures
-PRODUCT_PACKAGES += \
-    com.cyanogenmod.keyhandler
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
