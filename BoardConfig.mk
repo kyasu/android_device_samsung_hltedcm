@@ -158,8 +158,7 @@ BOARD_GLOBAL_CFLAGS += -DTW_USE_MINUI_CUSTOM_FONTS
 endif
 
 # SELinux
--include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += device/samsung/hltedcm/sepolicy
+include device/samsung/hltedcm/sepolicy/sepolicy.mk
 
 # Wifi
 BOARD_HAVE_SAMSUNG_WIFI := true
