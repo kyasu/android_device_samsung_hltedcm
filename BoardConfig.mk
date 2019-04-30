@@ -42,7 +42,7 @@ ifneq ($(RECOVERY_VARIANT),twrp)
 TARGET_KERNEL_CONFIG := lineage_hltedcm_defconfig
 endif
 ifeq ($(RECOVERY_VARIANT),twrp)
-TARGET_KERNEL_CONFIG := lineage_hltedcm_defconfig
+TARGET_KERNEL_CONFIG := twrp_hltedcm_defconfig
 endif
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8974
 
