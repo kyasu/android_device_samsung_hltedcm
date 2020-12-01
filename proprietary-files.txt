@@ -369,6 +369,8 @@ bin/rfs_access:vendor/bin/rfs_access
 bin/rmt_storage:vendor/bin/rmt_storage
 vendor/lib/libril-qcril-hook-oem.so
 lib/libsec-ril.so:vendor/lib/libsec-ril.so
+lib/libsec-ril.so:vendor/lib/libsec-ril.dcm.so
+lib/libsec-ril.so:vendor/lib/libsec-ril.kdi.so
 
 # Renderscript (Google bullhead - OPR4.170623.006)
 vendor/lib/libRSDriver_adreno.so|2044baf0169177e52aba6d7138f80559ecf2b58d

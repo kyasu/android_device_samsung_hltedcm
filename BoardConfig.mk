@@ -28,6 +28,9 @@ TARGET_BOOTLOADER_BOARD_NAME := MSM8974
 # Filesystem
 TARGET_FS_CONFIG_GEN += $(DEVICE_PATH)/config.fs
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_hltejp
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_CMDLINE := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x37 ehci-hcd.park=3
